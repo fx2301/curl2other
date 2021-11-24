@@ -1,0 +1,1212 @@
+[
+  {
+    "alias": null,
+    "option": "--abstract-unix-socket",
+    "argument": "<path>"
+  },
+  {
+    "alias": null,
+    "option": "--alt-svc",
+    "argument": "<file name>"
+  },
+  {
+    "alias": null,
+    "option": "--anyauth",
+    "argument": null
+  },
+  {
+    "alias": "-a",
+    "option": "--append",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--aws-sigv4",
+    "argument": "<provider1[:provider2[:region[:service]]]>"
+  },
+  {
+    "alias": null,
+    "option": "--basic",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--cacert",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--capath",
+    "argument": "<dir>"
+  },
+  {
+    "alias": "-E",
+    "option": "--cert",
+    "argument": "<certificate[:password]>"
+  },
+  {
+    "alias": null,
+    "option": "--cert-status",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--cert-type",
+    "argument": "<type>"
+  },
+  {
+    "alias": null,
+    "option": "--ciphers",
+    "argument": "<list of ciphers>"
+  },
+  {
+    "alias": null,
+    "option": "--compressed",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--compressed-ssh",
+    "argument": null
+  },
+  {
+    "alias": "-K",
+    "option": "--config",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--connect-timeout",
+    "argument": "<fractional seconds>"
+  },
+  {
+    "alias": null,
+    "option": "--connect-to",
+    "argument": "<HOST1:PORT1:HOST2:PORT2>"
+  },
+  {
+    "alias": "-C",
+    "option": "--continue-at",
+    "argument": "<offset>"
+  },
+  {
+    "alias": "-b",
+    "option": "--cookie",
+    "argument": "<data|filename>"
+  },
+  {
+    "alias": "-c",
+    "option": "--cookie-jar",
+    "argument": "<filename>"
+  },
+  {
+    "alias": null,
+    "option": "--create-dirs",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--create-file-mode",
+    "argument": "<mode>"
+  },
+  {
+    "alias": null,
+    "option": "--crlf",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--crlfile",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--curves",
+    "argument": "<algorithm list>"
+  },
+  {
+    "alias": "-d",
+    "option": "--data",
+    "argument": "<data>"
+  },
+  {
+    "alias": null,
+    "option": "--data-ascii",
+    "argument": "<data>"
+  },
+  {
+    "alias": null,
+    "option": "--data-binary",
+    "argument": "<data>"
+  },
+  {
+    "alias": null,
+    "option": "--data-raw",
+    "argument": "<data>"
+  },
+  {
+    "alias": null,
+    "option": "--data-urlencode",
+    "argument": "<data>"
+  },
+  {
+    "alias": null,
+    "option": "--delegation",
+    "argument": "<LEVEL>"
+  },
+  {
+    "alias": null,
+    "option": "--digest",
+    "argument": null
+  },
+  {
+    "alias": "-q",
+    "option": "--disable",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--disable-eprt",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--disable-epsv",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--disallow-username-in-url",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--dns-interface",
+    "argument": "<interface>"
+  },
+  {
+    "alias": null,
+    "option": "--dns-ipv4-addr",
+    "argument": "<address>"
+  },
+  {
+    "alias": null,
+    "option": "--dns-ipv6-addr",
+    "argument": "<address>"
+  },
+  {
+    "alias": null,
+    "option": "--dns-servers",
+    "argument": "<addresses>"
+  },
+  {
+    "alias": null,
+    "option": "--doh-cert-status",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--doh-insecure",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--doh-url",
+    "argument": "<URL>"
+  },
+  {
+    "alias": "-D",
+    "option": "--dump-header",
+    "argument": "<filename>"
+  },
+  {
+    "alias": null,
+    "option": "--egd-file",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--engine",
+    "argument": "<name>"
+  },
+  {
+    "alias": null,
+    "option": "--etag-compare",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--etag-save",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--expect100-timeout",
+    "argument": "<seconds>"
+  },
+  {
+    "alias": "-f",
+    "option": "--fail",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--fail-early",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--fail-with-body",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--false-start",
+    "argument": null
+  },
+  {
+    "alias": "-F",
+    "option": "--form",
+    "argument": "<name=content>"
+  },
+  {
+    "alias": null,
+    "option": "--form-escape",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--form-string",
+    "argument": "<name=string>"
+  },
+  {
+    "alias": null,
+    "option": "--ftp-account",
+    "argument": "<data>"
+  },
+  {
+    "alias": null,
+    "option": "--ftp-alternative-to-user",
+    "argument": "<command>"
+  },
+  {
+    "alias": null,
+    "option": "--ftp-create-dirs",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ftp-method",
+    "argument": "<method>"
+  },
+  {
+    "alias": null,
+    "option": "--ftp-pasv",
+    "argument": null
+  },
+  {
+    "alias": "-P",
+    "option": "--ftp-port",
+    "argument": "<address>"
+  },
+  {
+    "alias": null,
+    "option": "--ftp-pret",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ftp-skip-pasv-ip",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ftp-ssl-ccc",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ftp-ssl-ccc-mode",
+    "argument": "<active/passive>"
+  },
+  {
+    "alias": null,
+    "option": "--ftp-ssl-control",
+    "argument": null
+  },
+  {
+    "alias": "-G",
+    "option": "--get",
+    "argument": null
+  },
+  {
+    "alias": "-g",
+    "option": "--globoff",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--happy-eyeballs-timeout-ms",
+    "argument": "<milliseconds>"
+  },
+  {
+    "alias": null,
+    "option": "--haproxy-protocol",
+    "argument": null
+  },
+  {
+    "alias": "-I",
+    "option": "--head",
+    "argument": null
+  },
+  {
+    "alias": "-H",
+    "option": "--header",
+    "argument": "<header/@file>"
+  },
+  {
+    "alias": "-h",
+    "option": "--help",
+    "argument": "<category>"
+  },
+  {
+    "alias": null,
+    "option": "--hostpubmd5",
+    "argument": "<md5>"
+  },
+  {
+    "alias": null,
+    "option": "--hostpubsha256",
+    "argument": "<sha256>"
+  },
+  {
+    "alias": null,
+    "option": "--hsts",
+    "argument": "<file name>"
+  },
+  {
+    "alias": null,
+    "option": "--http0.9",
+    "argument": null
+  },
+  {
+    "alias": "-0",
+    "option": "--http1.0",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--http1.1",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--http2",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--http2-prior-knowledge",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--http3",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ignore-content-length",
+    "argument": null
+  },
+  {
+    "alias": "-i",
+    "option": "--include",
+    "argument": null
+  },
+  {
+    "alias": "-k",
+    "option": "--insecure",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--interface",
+    "argument": "<name>"
+  },
+  {
+    "alias": "-4",
+    "option": "--ipv4",
+    "argument": null
+  },
+  {
+    "alias": "-6",
+    "option": "--ipv6",
+    "argument": null
+  },
+  {
+    "alias": "-j",
+    "option": "--junk-session-cookies",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--keepalive-time",
+    "argument": "<seconds>"
+  },
+  {
+    "alias": null,
+    "option": "--key",
+    "argument": "<key>"
+  },
+  {
+    "alias": null,
+    "option": "--key-type",
+    "argument": "<type>"
+  },
+  {
+    "alias": null,
+    "option": "--krb",
+    "argument": "<level>"
+  },
+  {
+    "alias": null,
+    "option": "--libcurl",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--limit-rate",
+    "argument": "<speed>"
+  },
+  {
+    "alias": "-l",
+    "option": "--list-only",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--local-port",
+    "argument": "<num/range>"
+  },
+  {
+    "alias": "-L",
+    "option": "--location",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--location-trusted",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--login-options",
+    "argument": "<options>"
+  },
+  {
+    "alias": null,
+    "option": "--mail-auth",
+    "argument": "<address>"
+  },
+  {
+    "alias": null,
+    "option": "--mail-from",
+    "argument": "<address>"
+  },
+  {
+    "alias": null,
+    "option": "--mail-rcpt",
+    "argument": "<address>"
+  },
+  {
+    "alias": null,
+    "option": "--mail-rcpt-allowfails",
+    "argument": null
+  },
+  {
+    "alias": "-M",
+    "option": "--manual",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--max-filesize",
+    "argument": "<bytes>"
+  },
+  {
+    "alias": null,
+    "option": "--max-redirs",
+    "argument": "<num>"
+  },
+  {
+    "alias": "-m",
+    "option": "--max-time",
+    "argument": "<fractional seconds>"
+  },
+  {
+    "alias": null,
+    "option": "--metalink",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--negotiate",
+    "argument": null
+  },
+  {
+    "alias": "-n",
+    "option": "--netrc",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--netrc-file",
+    "argument": "<filename>"
+  },
+  {
+    "alias": null,
+    "option": "--netrc-optional",
+    "argument": null
+  },
+  {
+    "alias": "-:",
+    "option": "--next",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--no-alpn",
+    "argument": null
+  },
+  {
+    "alias": "-N",
+    "option": "--no-buffer",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--no-keepalive",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--no-npn",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--no-progress-meter",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--no-sessionid",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--noproxy",
+    "argument": "<no-proxy-list>"
+  },
+  {
+    "alias": null,
+    "option": "--ntlm",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ntlm-wb",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--oauth2-bearer",
+    "argument": "<token>"
+  },
+  {
+    "alias": "-o",
+    "option": "--output",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--output-dir",
+    "argument": "<dir>"
+  },
+  {
+    "alias": "-Z",
+    "option": "--parallel",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--parallel-immediate",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--parallel-max",
+    "argument": "<num>"
+  },
+  {
+    "alias": null,
+    "option": "--pass",
+    "argument": "<phrase>"
+  },
+  {
+    "alias": null,
+    "option": "--path-as-is",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--pinnedpubkey",
+    "argument": "<hashes>"
+  },
+  {
+    "alias": null,
+    "option": "--post301",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--post302",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--post303",
+    "argument": null
+  },
+  {
+    "alias": "-#",
+    "option": "--progress-bar",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proto",
+    "argument": "<protocols>"
+  },
+  {
+    "alias": null,
+    "option": "--proto-default",
+    "argument": "<protocol>"
+  },
+  {
+    "alias": null,
+    "option": "--proto-redir",
+    "argument": "<protocols>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-anyauth",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-basic",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-cacert",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-capath",
+    "argument": "<dir>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-cert",
+    "argument": "<cert[:passwd]>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-cert-type",
+    "argument": "<type>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-ciphers",
+    "argument": "<list>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-crlfile",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-digest",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-header",
+    "argument": "<header/@file>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-insecure",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-key",
+    "argument": "<key>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-key-type",
+    "argument": "<type>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-negotiate",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-ntlm",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-pass",
+    "argument": "<phrase>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-pinnedpubkey",
+    "argument": "<hashes>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-service-name",
+    "argument": "<name>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-ssl-allow-beast",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-ssl-auto-client-cert",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--proxy-tls13-ciphers",
+    "argument": "<ciphersuite list>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-tlsauthtype",
+    "argument": "<type>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-tlspassword",
+    "argument": "<string>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-tlsuser",
+    "argument": "<name>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy-tlsv1",
+    "argument": null
+  },
+  {
+    "alias": "-U",
+    "option": "--proxy-user",
+    "argument": "<user:password>"
+  },
+  {
+    "alias": null,
+    "option": "--proxy1.0",
+    "argument": "<host[:port]>"
+  },
+  {
+    "alias": "-p",
+    "option": "--proxytunnel",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--pubkey",
+    "argument": "<key>"
+  },
+  {
+    "alias": "-Q",
+    "option": "--quote",
+    "argument": "<command>"
+  },
+  {
+    "alias": null,
+    "option": "--random-file",
+    "argument": "<file>"
+  },
+  {
+    "alias": "-r",
+    "option": "--range",
+    "argument": "<range>"
+  },
+  {
+    "alias": null,
+    "option": "--raw",
+    "argument": null
+  },
+  {
+    "alias": "-e",
+    "option": "--referer",
+    "argument": "<URL>"
+  },
+  {
+    "alias": "-J",
+    "option": "--remote-header-name",
+    "argument": null
+  },
+  {
+    "alias": "-O",
+    "option": "--remote-name",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--remote-name-all",
+    "argument": null
+  },
+  {
+    "alias": "-R",
+    "option": "--remote-time",
+    "argument": null
+  },
+  {
+    "alias": "-X",
+    "option": "--request",
+    "argument": "<command>"
+  },
+  {
+    "alias": null,
+    "option": "--request-target",
+    "argument": "<path>"
+  },
+  {
+    "alias": null,
+    "option": "--resolve",
+    "argument": "<[+]host:port:addr[,addr]...>"
+  },
+  {
+    "alias": null,
+    "option": "--retry",
+    "argument": "<num>"
+  },
+  {
+    "alias": null,
+    "option": "--retry-all-errors",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--retry-connrefused",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--retry-delay",
+    "argument": "<seconds>"
+  },
+  {
+    "alias": null,
+    "option": "--retry-max-time",
+    "argument": "<seconds>"
+  },
+  {
+    "alias": null,
+    "option": "--sasl-authzid",
+    "argument": "<identity>"
+  },
+  {
+    "alias": null,
+    "option": "--sasl-ir",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--service-name",
+    "argument": "<name>"
+  },
+  {
+    "alias": "-S",
+    "option": "--show-error",
+    "argument": null
+  },
+  {
+    "alias": "-s",
+    "option": "--silent",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--socks4",
+    "argument": "<host[:port]>"
+  },
+  {
+    "alias": null,
+    "option": "--socks4a",
+    "argument": "<host[:port]>"
+  },
+  {
+    "alias": null,
+    "option": "--socks5",
+    "argument": "<host[:port]>"
+  },
+  {
+    "alias": null,
+    "option": "--socks5-basic",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--socks5-gssapi",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--socks5-gssapi-nec",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--socks5-gssapi-service",
+    "argument": "<name>"
+  },
+  {
+    "alias": null,
+    "option": "--socks5-hostname",
+    "argument": "<host[:port]>"
+  },
+  {
+    "alias": "-Y",
+    "option": "--speed-limit",
+    "argument": "<speed>"
+  },
+  {
+    "alias": "-y",
+    "option": "--speed-time",
+    "argument": "<seconds>"
+  },
+  {
+    "alias": null,
+    "option": "--ssl",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ssl-allow-beast",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ssl-auto-client-cert",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ssl-no-revoke",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ssl-reqd",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--ssl-revoke-best-effort",
+    "argument": null
+  },
+  {
+    "alias": "-2",
+    "option": "--sslv2",
+    "argument": null
+  },
+  {
+    "alias": "-3",
+    "option": "--sslv3",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--stderr",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--styled-output",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--suppress-connect-headers",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tcp-fastopen",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tcp-nodelay",
+    "argument": null
+  },
+  {
+    "alias": "-t",
+    "option": "--telnet-option",
+    "argument": "<opt=val>"
+  },
+  {
+    "alias": null,
+    "option": "--tftp-blksize",
+    "argument": "<value>"
+  },
+  {
+    "alias": null,
+    "option": "--tftp-no-options",
+    "argument": null
+  },
+  {
+    "alias": "-z",
+    "option": "--time-cond",
+    "argument": "<time>"
+  },
+  {
+    "alias": null,
+    "option": "--tls-max",
+    "argument": "<VERSION>"
+  },
+  {
+    "alias": null,
+    "option": "--tls13-ciphers",
+    "argument": "<ciphersuite list>"
+  },
+  {
+    "alias": null,
+    "option": "--tlsauthtype",
+    "argument": "<type>"
+  },
+  {
+    "alias": null,
+    "option": "--tlspassword",
+    "argument": "<string>"
+  },
+  {
+    "alias": null,
+    "option": "--tlsuser",
+    "argument": "<name>"
+  },
+  {
+    "alias": "-1",
+    "option": "--tlsv1",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tlsv1.0",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tlsv1.1",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tlsv1.2",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tlsv1.3",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--tr-encoding",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--trace",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--trace-ascii",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--trace-time",
+    "argument": null
+  },
+  {
+    "alias": null,
+    "option": "--unix-socket",
+    "argument": "<path>"
+  },
+  {
+    "alias": "-T",
+    "option": "--upload-file",
+    "argument": "<file>"
+  },
+  {
+    "alias": null,
+    "option": "--url",
+    "argument": "<url>"
+  },
+  {
+    "alias": "-B",
+    "option": "--use-ascii",
+    "argument": null
+  },
+  {
+    "alias": "-u",
+    "option": "--user",
+    "argument": "<user:password>"
+  },
+  {
+    "alias": "-A",
+    "option": "--user-agent",
+    "argument": "<name>"
+  },
+  {
+    "alias": "-v",
+    "option": "--verbose",
+    "argument": null
+  },
+  {
+    "alias": "-V",
+    "option": "--version",
+    "argument": null
+  },
+  {
+    "alias": "-w",
+    "option": "--write-out",
+    "argument": "<format>"
+  },
+  {
+    "alias": null,
+    "option": "--xattr",
+    "argument": null
+  }
+]
