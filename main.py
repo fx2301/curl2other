@@ -1,4 +1,5 @@
 from optparse import OptionGroup, OptionParser
+import shlex
 import sys
 
 from transformations.curl2min import minimal_curl_args
@@ -38,6 +39,6 @@ if not(options.minimal_curl):
 
 if options.minimal_curl:
     curl_args = minimal_curl_args(curl_args)
+    command = ['curl'] + curl_args
 
-# TODO quote command for safe usage in bash e.g. -H 'Host: foo'
-print(' '.join(['curl']+curl_args))
+print(shlex.join(command))
