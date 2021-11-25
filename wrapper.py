@@ -2,6 +2,7 @@ from dataclasses import dataclass
 import hashlib
 import json
 import re
+import shlex
 import subprocess
 from typing import Dict, List, Optional
 from functools import reduce
@@ -13,6 +14,9 @@ class CurlResult:
     status: int
     body_digest: str
 
+    def __eq__(self, other: 'CurlResult') -> bool:
+        return self.status == other.status and self.body_digest == other.body_digest
+
     def __str__(self):
         return f"CurlResult(status={self.status}, body_digest={self.body_digest})"
 
@@ -23,6 +27,7 @@ def execute(arguments: List[str]) -> CurlResult:
     if '-s' not in cmd:
         cmd.append('-s')
         
+    # print(f"Running: {shlex.join(cmd)}")
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout = proc.stdout.read()
     stderr = proc.stderr.read()
@@ -36,9 +41,11 @@ def execute(arguments: List[str]) -> CurlResult:
     status = int(status_match[1])
     body_digest = hashlib.sha256(stdout).hexdigest()
 
-    # print(status, digest)
+    result = CurlResult(arguments, status, body_digest)
 
-    return CurlResult(arguments, status, body_digest)
+    # print('-->', status, body_digest)
+
+    return result
 
 # TODO memoize this?
 def _option_definitions() -> Dict[str, dict]:
@@ -67,6 +74,9 @@ class CurlOption:
     def to_component_options(self):
         return [self]
 
+    def __str__(self):
+        return shlex.join(self.to_arguments())
+
 def to_options(arguments: List[str]) -> List[CurlOption]:
     option_definitions = _option_definitions()
 
@@ -92,8 +102,11 @@ def to_options(arguments: List[str]) -> List[CurlOption]:
 
     return options
 
-def execute_options(options: List[CurlOption]) -> (str, str):
-    arguments = reduce(lambda acc, option: acc + option.to_arguments(), options, [])
+def to_arguments(options: List[CurlOption]) -> List[CurlOption]:
+    return reduce(lambda acc, option: acc + option.to_arguments(), options, [])
+
+def execute_options(options: List[CurlOption]) -> CurlResult:
+    arguments = to_arguments(options)
 
     return execute(arguments)
 
