@@ -72,6 +72,15 @@ class CurlOption:
             return [self.name, self.argument]
 
     def to_component_options(self):
+        """Split option into component, stand-alone options"""
+        if self.name in ['-H', "--header"]:
+            m = re.match(r'^Cookie: (.*)$', self.argument)
+            if m:
+                return [
+                    CurlOption(self.name, f'Cookie: {value}')
+                    for value in m[1].split('; ')
+                ]
+
         return [self]
 
     def __str__(self):
