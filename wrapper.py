@@ -3,6 +3,7 @@ import hashlib
 import json
 import re
 import shlex
+import sys
 import subprocess
 from typing import Dict, List, Optional
 from functools import reduce
@@ -29,12 +30,16 @@ def execute(arguments: List[str]) -> CurlResult:
         
     # print(f"Running: {shlex.join(cmd)}")
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    stdout = proc.stdout.read()
-    stderr = proc.stderr.read()
+    stdout = proc.stdout.read().decode('utf-8')
+    stderr = proc.stderr.read().decode('utf-8')
 
-    status_match = re.search(r'^< HTTP/[0-9.]+ ([0-9]+)', stderr.decode('utf-8'), re.MULTILINE)
+    if '* SSL certificate problem: self signed certificate' in stderr:
+        print("Server SSL certificate is self-signed. Add --insecure curl argument if it's safe to continue.", file=sys.stderr)
+        exit(1)
+
+    status_match = re.search(r'^< HTTP/[0-9.]+ ([0-9]+)', stderr, re.MULTILINE)
     if not status_match:
-        raise Exception(f"No status found in response for: {' '.join(cmd)}")
+        raise Exception(f"No status found in response for: {shlex.join(cmd)}")
     
     # TODO check for location header as well
 
